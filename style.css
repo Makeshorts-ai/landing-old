@@ -1,0 +1,23 @@
+ 
+
+
+/* Add your global styling here */
+
+@media (min-width: 768px) {
+  /* Media query for tablets and larger screens */
+  .w-md-auto {
+    width: auto;
+  }
+  .text-md-22px {
+    font-size: 22.86px;
+  }
+  /* Add more media query specific styles here */
+}
+
+@media (min-width: 1024px) {
+  /* Media query for desktop screens */
+  .text-md-28px {
+    font-size: 28px;
+  }
+  /* Add more media query specific styles here */
+}

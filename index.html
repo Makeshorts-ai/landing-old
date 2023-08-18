@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+      <script src="https://cdn.tailwindcss.com"></script>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Your Website</title>
+      <style type="text/css">
+        body {
+        font-family: 'Inter', sans-serif;
+    }
+         .txShadow{
+         text-shadow: 0px 2px 8px rgba(0, 0, 0, 0.25);
+         }
+         .relative {
+         position: relative;
+         }
+         .absolute {
+         position: absolute;
+         }
+         .h-[32vw] {
+         height: 32vw;
+         }
+      </style>
+   </head>
+   <body class="bg-gray-100">
+      <nav class="  fixed txShadow text-white  top-0 left-0 w-full transition duration-300 ease-in-out z-50" id="navbar">
+         <div class="container mx-auto flex items-center justify-between py-4">
+            <div class="text-gray-800 font-semibold text-lg">
+               <img src="logo.svg" alt="Logo" width="40">
+            </div>
+            <div class="space-x-6">
+               <div class="w-[445px] h-12 justify-start items-center gap-10 inline-flex">
+                <a href="#how-it-works">
+                  <div class="  text-xl font-extrabold 
+                     ">How it works</div>
+                 </a>
+                 <a href="#pricing">
+                  <div class=" text-xl font-extrabold">Pricing</div>
+              </a>
+                <a href="https://app.makeshorts.ai">
+                  <div class="w-[166px] h-12 px-4 py-2 bg-white rounded-[40px] shadow border justify-center items-center gap-1.5 flex" style="box-shadow: 0px 0px 32px 0px rgba(255, 236, 68, 0.80), 0px 1px 82px 0px rgba(255, 236, 68, 0.55);">
+                     <div class="text-center text-black text-xl font-bold">Log In</div>
+                  </div>
+              </a>
+
+               </div>
+            </div>
+         </div>
+      </nav>
+      <div class="h-screen flex items-center justify-center bg-cover bg-center bg-gradient-to-r from-blue-500 to-purple-600" style="background-image: url('hero.png');">
+         <div class="text-center text-white ">
+            <div class="shadow w-[148px] border border-black mx-auto mb-4 border-opacity-20 rounded-[20px]"> 
+               <img src="logo.svg" class=" w-full ">
+            </div>
+            <h1 class="text-[40px] font-bold mb-4">Make Shorts</h1>
+            <p class="text-[28px] text-gray-300">As simple as pressing<br/> a button.</p>
+            <div class="mt-7 w-[234px] h-[52px]  text-center     bg-gradient-to-r rounded-[65.71px] shadow justify-center items-center   inline-flex">
+                <a href="https://app.makeshorts.ai">
+                <div class="w-60 h-[52px] px-4 py-2 bg-white rounded-[40px] shadow border justify-center items-center gap-1.5 inline-flex" style="box-shadow: 0px 0px 32px 0px rgba(255, 236, 68, 0.80), 0px 1px 82px 0px rgba(255, 236, 68, 0.55);">
+    <div class="text-center text-black text-xl font-bold">Get Started</div>
+</div>
+ </a>
+               <!-- <div class="text-white text-[22.86px] font-semibold">Get Started</div> -->
+            </div>
+         </div>
+      </div>
+      <section class="py-16">
+         <div class="container mx-auto text-center">
+            <div class="text-center text-sky-900 text-2xl font-extrabold">SOCIAL-READY SHORT CLIPS WITH AI</div>
+            <div class="text-center text-rose-600 text-[40px] font-extrabold">Record once, publish everywhere</div>
+            <div class="flex gap-4 p-8 mt-10">
+               <div class="relative w-[18%] h-[32vw] rounded-[10px] mt-[15px] overflow-hidden">
+                  <video class="absolute w-full h-full object-cover" src="video1.mp4" autoplay muted loop></video>
+               </div>
+               <div class="relative w-[18%] h-[32vw] rounded-[10px] overflow-hidden">
+                  <video class="absolute w-full h-full object-cover" src="video2.mp4" autoplay muted loop></video>
+               </div>
+               <div class="relative w-[18%] h-[32vw] rounded-[10px] mt-[13px]  overflow-hidden">
+                  <video class="absolute w-full h-full object-cover" src="video3.mp4" autoplay muted loop></video>
+               </div>
+               <div class="relative w-[18%] h-[32vw] rounded-[10px] overflow-hidden">
+                  <video class="absolute w-full h-full object-cover" src="video4.mp4" autoplay muted loop></video>
+               </div>
+               <div class="relative w-[18%] h-[32vw] rounded-[10px] mt-[20px]  overflow-hidden">
+                  <video class="absolute w-full h-full object-cover" src="video5.mp4" autoplay muted loop></video>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section class="bg-[#91D4BB] w-full py-24" id="how-it-works">
+         <div class="container mx-auto text-center">
+            <div class="text-center text-green-800 text-2xl md:text-3xl lg:text-4xl font-extrabold uppercase">How does it work?</div>
+            <div class="text-center text-green-950 text-2xl md:text-4xl lg:text-5xl font-extrabold">One click is all it takes</div>
+            <div class="flex flex-col md:flex-row justify-center mt-8 gap-4">
+               <div class="p-4">
+                  <div class="w-full h-[auto] md:w-[360px] lg:w-[468px] p-8 bg-white bg-opacity-50 rounded-3xl shadow flex flex-col justify-start items-start gap-4">
+                     <div class="self-stretch text-black text-xl md:text-2xl lg:text-3xl font-extrabold">AI Clipping</div>
+                     <div class="self-stretch text-black text-base md:text-lg lg:text-xl font-normal text-left">Get viral clips in seconds, not hours<br/><br/>Automatically identify the most engaging parts and generate shorts from hour-long video. Save hours of manually picking the best part and leverage AI.</div>
+                  </div>
+               </div>
+               <div class="p-4">
+                  <div class="w-full h-[auto] md:w-[360px] lg:w-[468px] p-8 bg-white bg-opacity-50 rounded-3xl shadow flex flex-col justify-start items-start gap-4">
+                     <div class="self-stretch text-black text-xl md:text-2xl lg:text-3xl font-extrabold">AI Croping with Autofocus</div>
+                     <div class="self-stretch text-black text-base md:text-lg lg:text-xl font-normal text-left">
+                                          The easiest way to turn a landscape video into vertical <br/> <br/>
+
+Convert landscape videos into stunning vertical content that keeps the main speaker in the spotlight
+  </div>
+                  </div>
+               </div>
+            </div>
+            <div class="flex flex-col md:flex-row justify-center mt-2 gap-4">
+               <div class="p-4">
+                  <div class="w-full h-[auto] md:w-[360px] lg:w-[468px] p-8 bg-white bg-opacity-50 rounded-3xl shadow flex flex-col justify-start items-start gap-4">
+                     <div class="self-stretch text-black text-xl md:text-2xl lg:text-3xl font-extrabold">AI Subtitling</div>
+                     <div class="self-stretch text-black text-base md:text-lg lg:text-xl font-normal text-left">
+                        Grab attention and connect with your audience like never before.
+<br/><br/>
+                        Transform your videos into engaging and accessible experiences tailored for social media platforms. 
+                        </div>
+                  </div>
+               </div>
+               <div class="p-4">
+                  <div class="w-full h-[auto] md:w-[360px] lg:w-[468px] p-8 bg-white bg-opacity-50 rounded-3xl shadow flex flex-col justify-start items-start gap-4">
+                     <div class="self-stretch text-black text-xl md:text-2xl lg:text-3xl font-extrabold">AI Social Caption</div>
+                     <div class="self-stretch text-black text-base md:text-lg lg:text-xl font-normal text-left">Quit fighting the blank page and leverage AI<br/><br/>Elevate your content with auto-generated descriptions and hashtags, giving your videos the extra boost they need to shine.</div>
+                  </div>
+               </div>
+            </div>
+            <div class="opacity-40 text-center text-green-800 text-5xl md:text-6xl lg:text-[81.60px] font-normal mt-10">
+               <img src="t.svg" class="mx-auto">
+            </div>
+         </div>
+      </section>
+      <section class="bg-[#EAF2EF] w-full py-24" id="pricing">
+         <div class="container mx-auto text-center">
+            <div class="text-center text-pink-800 text-2xl font-extrabold uppercase">Pricing</div>
+            <div class="text-center text-pink-500 text-[30px] md:text-3xl  font-extrabold">Powerful features for powerful creators</div>
+            <div class="flex flex-col mt-14 md:flex-row md:justify-center gap-8">
+               <div class="shadow-[0px_4px_59px_0px_rgba(50,_50,_71,_0.06),_0px_4px_103px_0px_rgba(50,_50,_71,_0.01)] overflow-hidden bg-white/50 flex flex-col pb-8 gap-8 w-full md:w-[300px] rounded-[40px]" id="Package1">
+                  <div class="bg-white flex flex-col justify-end gap-2 h-[141px] shrink-0 items-center py-4">
+                     <div class="text-center text-xl font-semibold text-[#112340]">FREE TRIAL</div>
+                     <div class="text-center text-[40px] font-medium text-[#112340]">Free</div>
+                  </div>
+                  <div class="flex flex-col justify-between h-16 shrink-0">
+                     <div class="text-center">
+                        Try MakeShorts by running<br /><br />
+                        <b>1 free video</b>
+                     </div>
+                  </div>
+                  <div class="flex flex-col mx-auto w-2/3 cursor-pointer" id="Btn1" onClick={handleDowngrade}>
+                    <a href="https://app.makeshorts.ai">
+                     <div class="transition-all duration-300 ease-in-out hover:bg-green-600 w-full shadow-[2px_2px_12px_0px_rgba(10,_93,_223,_0.45),_1px_1px_2px_0px_rgba(12,_123,_253,_0.2)] bg-green-500 flex flex-col justify-center p-2 h-12 shrink-0 rounded-[44px]">
+                        <div class="text-center text-lg font-semibold text-white">
+                           Try for free
+                        </div>
+                     </div>
+                 </a>
+                  </div>
+               </div>
+               <div class="shadow-[0px_4px_59px_0px_rgba(50,_50,_71,_0.06),_0px_4px_103px_0px_rgba(50,_50,_71,_0.01)] overflow-hidden bg-white/50 flex flex-col pb-6 gap-8 w-full md:w-[300px] rounded-[40px]" id="Package2">
+                  <div class="bg-white flex flex-col justify-end gap-2 h-[141px] shrink-0 items-center px-10 py-4">
+                     <div class="text-center text-xl font-semibold text-[#112340]">PLUS</div>
+                     <div>
+                        <span class="text-center text-[40px] font-medium text-[#112340]">
+                        20$
+                        </span>
+                        <span class="text-center text-[20px] text-[#112340]">
+                        /month
+                        </span>
+                     </div>
+                  </div>
+                  <div class="flex flex-col justify-between h-[150px] shrink-0 m-auto">
+                     <div class="flex flex-row gap-2 items-start mb-4">
+                        <img src="check.svg" alt="Checkmark" class="w-6 h-6">
+                        <div class="text-[#112340] mt-px">
+                           10 videos per month
+                        </div>
+                     </div>
+                     <div class="flex flex-row gap-2 items-start mb-4">
+                        <img src="check.svg" alt="Checkmark" class="w-6 h-6">
+                        <div class="text-[#112340] mt-px">
+                           3 videos at a time
+                        </div>
+                     </div>
+                     <div class="flex flex-row mr-5 gap-2 items-start mb-4">
+                        <img src="check.svg" alt="Checkmark" class="w-6 h-6">
+                        <div class="text-[#112340] mt-px">
+                           Faster generating times
+                        </div>
+                     </div>
+                     <div class="flex flex-row mr-1 gap-2 items-start mb-4">
+                        <img src="check.svg" alt="Checkmark" class="w-6 h-6">
+                        <div class="text-[#112340] mt-px">
+                           Priority 24/7 Support
+                        </div>
+                     </div>
+                  </div>
+                  <div class="flex flex-col mx-auto w-2/3 cursor-pointer" id="Btn1" onClick={handleDowngrade}>
+                    <a href="https://app.makeshorts.ai">
+                     <div class="transition-all duration-300 ease-in-out hover:bg-green-600 w-full shadow-[2px_2px_12px_0px_rgba(10,_93,_223,_0.45),_1px_1px_2px_0px_rgba(12,_123,_253,_0.2)] bg-green-500 flex flex-col justify-center p-2 h-12 shrink-0 rounded-[44px]">
+                        <div class="text-center text-lg font-semibold text-white">
+                           Sign up for Plus
+                        </div>
+                     </div>
+                 </a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section class="bg-[#fff] w-full py-16">
+         <div class="container mx-auto text-center">
+            <div class="text-center text-blue-600 text-[40px] font-extrabold">Three steps are all it takes</div>
+            <div class="flex justify-center mt-8 ">
+               <div class="flex flex-col mt-8 md:flex-row md:justify-center gap-8">
+                  <div class="w-[400px] h-[410px] relative bg-zinc-300 rounded-2xl shadow border border-black border-opacity-20">
+                     <img class="absolute" src="ytpaste.png"  style="    border-radius: 16px;" />
+                     <div class="w-[360px] h-[106px] left-[20px] top-[216px] absolute">
+                        <div class="w-[357px] left-0 top-0 absolute text-center text-black text-2xl font-extrabold">Paste YouTube URL</div>
+                        <div class="w-[357px] left-[3px] top-[48px] absolute text-center text-black text-2xl font-normal">Paste YT video URL of any video</div>
+                     </div>
+                  </div>
+                  <div class="w-[400px] h-[410px] relative bg-neutral-100 rounded-2xl shadow border border-black border-opacity-20">
+                     <div class="h-[164px] left-[16px] top-[216px] absolute">
+                        <div class="w-[368px] left-0 top-0 absolute text-center text-black text-2xl font-extrabold">Click ‘Make Shorts’</div>
+                        <div class="w-[351px] left-[8px] top-[48px] absolute text-center text-black text-2xl font-normal">Sit back, we will generate best video short along with description and hashtags.</div>
+                     </div>
+                     <div class="w-[351px] h-[84px]  py-3 left-[47.67px] top-[64px] absolute bg-zinc-800 rounded-l-[60px] justify-between items-center gap-[9px] inline-flex">
+                        <div class="px-9 text-white text-3xl font-semibold">Make Shorts</div>
+                        <div class="   text-white text-3xl font-normal">
+                           <img src="arrow.png">
+                        </div>
+                     </div>
+                     <div class="w-[84px] h-[84px] pl-[18.79px] pr-[14.83px] pt-[15.35px] pb-[15.07px] left-[261.67px] top-[111px] absolute justify-center items-center inline-flex">
+                        <div class="w-[50.39px] h-[53.58px] relative">
+                        </div>
+                     </div>
+                  </div>
+                  <div class="w-[400px] h-[410px] relative bg-neutral-100 rounded-2xl shadow border border-black border-opacity-20">
+                     <div class="h-[135px] left-[25px] top-[216px] absolute">
+                        <div class="w-[253px] left-[49px] top-0 absolute text-center text-black text-2xl font-extrabold">Export & Share</div>
+                        <div class="w-[351px] left-0 top-[48px] absolute text-center text-black text-2xl font-normal">Download and your work is done!</div>
+                     </div>
+                     <div class="h-[92px] px-[39.43px] py-[13.14px] left-[32.67px] top-[69.31px] absolute origin-top-left rotate-[-5.18deg] bg-blue-600 rounded-[65.71px] shadow justify-end items-center gap-[19.71px] inline-flex">
+                        <div class="text-white text-[32.86px] font-semibold">Export .MP4</div>
+                        <div class="w-[39.43px] text-center text-white text-[32.86px] font-normal">
+                           <img src="download.svg">
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section class="bg-[#013118] w-full py-16">
+         <div class="container mx-auto text-center">
+            <div class="w-full   flex items-center justify-between  ">
+               <div class="flex items-center mx-auto">
+                  <img src="logo.svg" alt="Logo" width="148">
+               </div>
+               <!-- <div class="flex flex-col space-y-2 text-left">
+                  <a href="#" class="text-[#91D4BB] hover:underline">TOS</a>
+                  <a href="#" class="text-[#91D4BB] hover:underline">Privacy Policy</a>
+               </div> -->
+            </div>
+         </div>
+      </section>
+      <script>
+         window.addEventListener("scroll", function() {
+           const navbar = document.getElementById("navbar");
+           if (window.scrollY > 0) {
+                     navbar.classList.remove("text-white", "txShadow");
+         
+             navbar.classList.add("bg-white", "opaque");
+           } else {
+                     navbar.classList.add( "text-white");
+         
+             navbar.classList.remove("bg-white", "opaque" );
+           }
+         });
+      </script>
+   </body>
+</html>
